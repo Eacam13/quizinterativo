@@ -1,335 +1,169 @@
 import { Question } from '../types/quiz';
 
 export const questions: Question[] = [
-  // ... questões 1-10 existentes ...
   {
-    id: 11,
-    question: "Qual elemento químico é representado pelo símbolo 'Au'?",
+    id: 1,
+    question: "Qual macronutriente é a principal fonte de energia do corpo?",
     options: [
-      "Ouro",
-      "Prata",
-      "Ferro",
-      "Cobre"
+      "Proteínas",
+      "Carboidratos",
+      "Vitaminas",
+      "Gorduras"
+    ],
+    correctAnswer: 1
+  },
+  {
+    id: 2,
+    question: "Qual macronutriente é essencial para construção e reparo muscular?",
+    options: [
+      "Gorduras",
+      "Proteínas",
+      "Carboidratos",
+      "Água"
+    ],
+    correctAnswer: 1
+  },
+  {
+    id: 3,
+    question: "Qual dessas opções é uma fonte saudável de gordura?",
+    options: [
+      "Óleo de coco",
+      "Manteiga",
+      "Abacate",
+      "Banha de porco"
+    ],
+    correctAnswer: 2
+  },
+  {
+    id: 4,
+    question: "Qual destes alimentos é rico em proteínas?",
+    options: [
+      "Frango",
+      "Arroz",
+      "Maçã",
+      "Batata"
     ],
     correctAnswer: 0
   },
   {
-    id: 12,
-    question: "Qual destes metais é líquido à temperatura ambiente?",
+    id: 5,
+    question: "Qual dos macronutrientes fornece mais calorias por grama?",
     options: [
-      "Mercúrio",
-      "Chumbo",
-      "Alumínio",
-      "Sódio"
+      "Carboidratos",
+      "Proteínas",
+      "Gorduras",
+      "Fibras"
+    ],
+    correctAnswer: 2
+  },
+  {
+    id: 6,
+    question: "Qual é a principal função dos carboidratos?",
+    options: [
+      "Transportar oxigênio",
+      "Produzir enzimas",
+      "Fornecer energia",
+      "Armazenar cálcio"
+    ],
+    correctAnswer: 2
+  },
+  {
+    id: 7,
+    question: "Qual destas é uma boa fonte de carboidratos complexos?",
+    options: [
+      "Pão branco",
+      "Refrigerante",
+      "Batata doce",
+      "Açúcar refinado"
+    ],
+    correctAnswer: 2
+  },
+  {
+    id: 8,
+    question: "Qual macronutriente é responsável pelo transporte de vitaminas lipossolúveis?",
+    options: [
+      "Água",
+      "Proteínas",
+      "Carboidratos",
+      "Gorduras"
+    ],
+    correctAnswer: 3
+  },
+  {
+    id: 9,
+    question: "Qual desses alimentos é uma fonte de proteína vegetal?",
+    options: [
+      "Feijão",
+      "Leite",
+      "Frango",
+      "Peixe"
+    ],
+    correctAnswer: 0
+  },
+  {
+    id: 10,
+    question: "O excesso de qual macronutriente pode aumentar os níveis de colesterol LDL?",
+    options: [
+      "Gorduras saturadas",
+      "Proteínas",
+      "Carboidratos",
+      "Fibras"
+    ],
+    correctAnswer: 0
+  },
+  {
+    id: 11,
+    question: "Qual dessas gorduras é considerada insaturada e benéfica para o coração?",
+    options: [
+      "Gordura trans",
+      "Gordura saturada",
+      "Ômega-3",
+      "Óleo de palma"
+    ],
+    correctAnswer: 2
+  },
+  {
+    id: 12,
+    question: "Qual destes alimentos possui uma combinação de carboidrato e proteína?",
+    options: [
+      "Iogurte natural",
+      "Maçã",
+      "Azeite",
+      "Açúcar"
     ],
     correctAnswer: 0
   },
   {
     id: 13,
-    question: "Qual é a fórmula química da água?",
+    question: "Qual macronutriente é digerido mais lentamente, ajudando na saciedade?",
     options: [
-      "H₂O",
-      "CO₂",
-      "NaCl",
-      "O₂"
+      "Gorduras",
+      "Carboidratos simples",
+      "Água",
+      "Vitaminas"
     ],
     correctAnswer: 0
   },
   {
     id: 14,
-    question: "Quantos elementos químicos a tabela periódica moderna possui?",
+    question: "Quantos gramas de proteína são encontrados em média em um ovo?",
     options: [
-      "118",
-      "92",
-      "88",
-      "102"
+      "2g",
+      "4g",
+      "6g",
+      "10g"
     ],
-    correctAnswer: 0
+    correctAnswer: 2
   },
   {
     id: 15,
-    question: "Qual destes é um gás nobre?",
+    question: "Qual macronutriente deve ser priorizado no pré-treino para fornecer energia?",
     options: [
-      "Hélio",
-      "Cloro",
-      "Flúor",
-      "Oxigênio"
+      "Gorduras",
+      "Proteínas",
+      "Carboidratos",
+      "Vitaminas"
     ],
-    correctAnswer: 0
-  },
-  {
-    id: 16,
-    question: "Qual é o elemento mais abundante na crosta terrestre?",
-    options: [
-      "Oxigênio",
-      "Silício",
-      "Alumínio",
-      "Ferro"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 17,
-    question: "Qual destes ácidos é encontrado no estômago?",
-    options: [
-      "Ácido clorídrico",
-      "Ácido sulfúrico",
-      "Ácido acético",
-      "Ácido nítrico"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 18,
-    question: "Qual é o estado de oxidação do oxigênio na maioria dos compostos?",
-    options: [
-      "-2",
-      "-1",
-      "+1",
-      "+2"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 19,
-    question: "Qual destes é um exemplo de coloide?",
-    options: [
-      "Leite",
-      "Água salgada",
-      "Álcool",
-      "Açúcar dissolvido"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 20,
-    question: "Qual processo separa componentes de uma mistura por diferença de pontos de ebulição?",
-    options: [
-      "Destilação",
-      "Filtração",
-      "Decantação",
-      "Cromatografia"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 21,
-    question: "Qual é a carga elétrica de um próton?",
-    options: [
-      "+1",
-      "-1",
-      "0",
-      "+2"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 22,
-    question: "Qual destes elementos é alcalino?",
-    options: [
-      "Sódio",
-      "Cálcio",
-      "Alumínio",
-      "Chumbo"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 23,
-    question: "Qual é a principal propriedade dos materiais diamagnéticos?",
-    options: [
-      "Repelem campos magnéticos",
-      "São atraídos por ímãs",
-      "Conduzem eletricidade",
-      "Emitem radiação"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 24,
-    question: "Qual destes é um isótopo do hidrogênio?",
-    options: [
-      "Deutério",
-      "Hélio",
-      "Lítio",
-      "Boro"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 25,
-    question: "Qual é o nome do processo de perda de elétrons?",
-    options: [
-      "Oxidação",
-      "Redução",
-      "Neutralização",
-      "Sublimação"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 26,
-    question: "Qual destes polímeros é natural?",
-    options: [
-      "Celulose",
-      "PVC",
-      "Poliéster",
-      "Nylon"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 27,
-    question: "Qual é o principal componente do gás natural?",
-    options: [
-      "Metano",
-      "Propano",
-      "Butano",
-      "Etanol"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 28,
-    question: "Qual destes elementos é radioativo naturalmente?",
-    options: [
-      "Urânio",
-      "Ouro",
-      "Prata",
-      "Cobre"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 29,
-    question: "Qual é a unidade básica de quantidade de matéria no SI?",
-    options: [
-      "Mol",
-      "Gramas",
-      "Litro",
-      "Kelvin"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 30,
-    question: "Qual destes metais é mais reativo?",
-    options: [
-      "Potássio",
-      "Cálcio",
-      "Ferro",
-      "Prata"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 31,
-    question: "Qual é o número atômico do carbono?",
-    options: [
-      "6",
-      "12",
-      "14",
-      "8"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 32,
-    question: "Qual destes é um exemplo de reação endotérmica?",
-    options: [
-      "Fotossíntese",
-      "Combustão",
-      "Ferrugem",
-      "Neutralização ácido-base"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 33,
-    question: "Qual composto é conhecido como 'álcool de cozinha'?",
-    options: [
-      "Etanol",
-      "Metanol",
-      "Isopropanol",
-      "Glicerol"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 34,
-    question: "Qual destes elementos pertence ao grupo dos halogênios?",
-    options: [
-      "Cloro",
-      "Oxigênio",
-      "Nitrogênio",
-      "Hélio"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 35,
-    question: "Qual é a fórmula do gás carbônico?",
-    options: [
-      "CO₂",
-      "CO",
-      "CH₄",
-      "C₂H₅OH"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 36,
-    question: "Qual destas substâncias é considerada um solvente universal?",
-    options: [
-      "Água",
-      "Álcool",
-      "Acetona",
-      "Éter"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 37,
-    question: "Qual é o estado de oxidação do sódio no NaCl?",
-    options: [
-      "+1",
-      "-1",
-      "+2",
-      "0"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 38,
-    question: "Qual destes elementos é um metal de transição?",
-    options: [
-      "Ferro",
-      "Alumínio",
-      "Cálcio",
-      "Sódio"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 39,
-    question: "Qual é o principal componente do ar?",
-    options: [
-      "Nitrogênio",
-      "Oxigênio",
-      "Dióxido de carbono",
-      "Argônio"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 40,
-    question: "Qual destes processos é físico?",
-    options: [
-      "Evaporação da água",
-      "Combustão do papel",
-      "Ferrugem",
-      "Digestão de alimentos"
-    ],
-    correctAnswer: 0
+    correctAnswer: 2
   }
 ];
