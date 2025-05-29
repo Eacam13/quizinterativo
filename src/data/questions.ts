@@ -3,167 +3,167 @@ import { Question } from '../types/quiz';
 export const questions: Question[] = [
   {
     id: 1,
-    question: "O que são redes sociais?",
+    question: "O que é uma senha forte?",
     options: [
-      "Plataformas para assistir televisão",
-      "Ambientes online que permitem interação entre pessoas",
-      "Serviços de entrega de comida",
-      "Jogos eletrônicos populares"
+      "Seu nome e data de nascimento",
+      "A mesma senha para todos os sites",
+      "Uma combinação de letras, números e símbolos",
+      "Uma palavra fácil de lembrar"
     ],
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     id: 2,
-    question: "Qual dessas redes sociais é mais voltada para fotos e vídeos curtos?",
+    question: "Por que não devemos compartilhar senhas?",
     options: [
-      "LinkedIn",
-      "Instagram",
-      "Twitter",
-      "WhatsApp"
+      "Para não perder a senha",
+      "Para evitar que outras pessoas acessem suas informações",
+      "Porque as senhas são longas",
+      "Porque senhas não são importantes"
     ],
     correctAnswer: 1
   },
   {
     id: 3,
-    question: "Qual rede social é mais usada para conexões profissionais?",
+    question: "O que é o phishing?",
     options: [
-      "Facebook",
-      "TikTok",
-      "LinkedIn",
-      "Snapchat"
+      "Um jogo online",
+      "Uma técnica para melhorar senhas",
+      "Um golpe que tenta enganar pessoas para roubar dados",
+      "Um antivírus famoso"
     ],
     correctAnswer: 2
   },
   {
     id: 4,
-    question: "O que significa ‘hashtag’ nas redes sociais?",
+    question: "Qual atitude ajuda a proteger seus dados online?",
     options: [
-      "Um tipo de vírus digital",
-      "Um código secreto entre usuários",
-      "Uma forma de agrupar conteúdos semelhantes",
-      "Um botão de volume"
+      "Clicar em todos os links recebidos",
+      "Compartilhar senhas com amigos",
+      "Ativar a verificação em duas etapas",
+      "Usar Wi-Fi público para acessar o banco"
     ],
     correctAnswer: 2
   },
   {
     id: 5,
-    question: "Por que é importante configurar a privacidade nas redes sociais?",
+    question: "O que é um antivírus?",
     options: [
-      "Para deixar o perfil mais bonito",
-      "Para evitar que estranhos vejam suas informações",
-      "Para economizar internet",
-      "Para aumentar curtidas"
+      "Um tipo de vírus perigoso",
+      "Programa que ajuda a proteger o dispositivo contra ameaças",
+      "Um aplicativo de fotos",
+      "Rede social exclusiva"
     ],
     correctAnswer: 1
   },
   {
     id: 6,
-    question: "Qual atitude é saudável no uso das redes sociais?",
+    question: "O que fazer ao receber um e-mail suspeito pedindo seus dados?",
     options: [
-      "Comparar-se com influenciadores",
-      "Passar o dia inteiro rolando o feed",
-      "Desconectar-se de vez em quando",
-      "Compartilhar tudo da vida pessoal"
+      "Responder com suas informações",
+      "Encaminhar para amigos",
+      "Ignorar e apagar ou denunciar",
+      "Clicar rapidamente no link"
     ],
     correctAnswer: 2
   },
   {
     id: 7,
-    question: "O que significa viralizar nas redes sociais?",
+    question: "Por que é importante manter os aplicativos atualizados?",
     options: [
-      "Contrair um vírus de computador",
-      "Ser bloqueado por muitas pessoas",
-      "Ter um conteúdo amplamente compartilhado",
-      "Excluir sua conta"
+      "Para mudar a cor do ícone",
+      "Para melhorar a velocidade da internet",
+      "Porque atualizações corrigem falhas de segurança",
+      "Para deixar o celular mais bonito"
     ],
     correctAnswer: 2
   },
   {
     id: 8,
-    question: "O que é um ‘influenciador digital’?",
+    question: "O que é a verificação em duas etapas?",
     options: [
-      "Alguém que conserta computadores",
-      "Pessoa famosa na TV",
-      "Usuário com muitos seguidores que influencia opiniões",
-      "Administrador de redes de internet"
+      "Digitar a senha duas vezes",
+      "Usar dois celulares ao mesmo tempo",
+      "Um método que exige duas formas de confirmação para acessar a conta",
+      "Apenas trocar de senha sempre"
     ],
     correctAnswer: 2
   },
   {
     id: 9,
-    question: "Qual rede social é conhecida por vídeos curtos e virais?",
+    question: "Qual é um sinal de site seguro para navegação?",
     options: [
-      "TikTok",
-      "LinkedIn",
-      "Facebook",
-      "Pinterest"
+      "URL começando com http://",
+      "Muitos anúncios piscando",
+      "URL com https:// e cadeado ao lado",
+      "Sites com letras maiúsculas apenas"
     ],
-    correctAnswer: 0
+    correctAnswer: 2
   },
   {
     id: 10,
-    question: "Por que devemos pensar antes de postar algo?",
+    question: "Por que devemos evitar redes Wi-Fi públicas sem senha?",
     options: [
-      "Porque é difícil escrever",
-      "Porque pode afetar nossa imagem e outras pessoas",
-      "Porque não temos tempo",
-      "Porque os outros copiam"
+      "Elas gastam mais bateria",
+      "São mais lentas",
+      "Podem ser inseguras e permitir o roubo de dados",
+      "Exigem senha depois de um tempo"
     ],
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     id: 11,
-    question: "Qual dessas práticas ajuda a manter um bom ambiente online?",
+    question: "O que fazer ao criar uma nova conta online?",
     options: [
-      "Respeitar opiniões diferentes",
-      "Fazer comentários ofensivos",
-      "Discutir com todo mundo",
-      "Postar fake news"
+      "Usar qualquer nome e senha fraca",
+      "Criar uma senha fácil e usar a mesma de sempre",
+      "Usar informações falsas para não ser identificado",
+      "Usar senha forte e ativar a verificação em duas etapas"
     ],
-    correctAnswer: 0
+    correctAnswer: 3
   },
   {
     id: 12,
-    question: "O que significa dar um ‘like’ em uma publicação?",
+    question: "O que pode acontecer se você clicar em links desconhecidos?",
     options: [
-      "Ignorar a publicação",
-      "Criticar o conteúdo",
-      "Expressar que gostou do conteúdo",
-      "Bloquear o autor"
+      "Seu celular melhora o desempenho",
+      "Você recebe prêmios",
+      "Seu dispositivo pode ser infectado ou seus dados roubados",
+      "Você ganha seguidores automaticamente"
     ],
     correctAnswer: 2
   },
   {
     id: 13,
-    question: "Qual é um risco do uso excessivo das redes sociais?",
+    question: "Por que devemos desconfiar de promoções boas demais?",
     options: [
-      "Melhora da autoestima",
-      "Maior produtividade",
-      "Dependência digital e ansiedade",
-      "Aumento da leitura"
+      "Porque produtos em promoção são ruins",
+      "Porque podem ser iscas para golpes",
+      "Porque tudo está sempre caro",
+      "Porque não gostamos de promoções"
     ],
-    correctAnswer: 2
+    correctAnswer: 1
   },
   {
     id: 14,
-    question: "O que significa DM em redes sociais?",
+    question: "Qual desses hábitos ajuda na segurança digital?",
     options: [
-      "Documento Militar",
-      "Mensagem direta",
-      "Download de Mídia",
-      "Dados Móveis"
+      "Usar a mesma senha em todos os sites",
+      "Desconfiar de mensagens e links estranhos",
+      "Aceitar solicitações de amizade de desconhecidos",
+      "Publicar informações pessoais frequentemente"
     ],
     correctAnswer: 1
   },
   {
     id: 15,
-    question: "Qual é uma vantagem das redes sociais?",
+    question: "O que é uma política de privacidade?",
     options: [
-      "Afastar-se de amigos",
-      "Desinformar as pessoas",
-      "Facilitar a comunicação e o compartilhamento de ideias",
-      "Desencorajar a leitura"
+      "Um tipo de antivírus",
+      "Um contrato que define como suas informações serão usadas",
+      "Um aplicativo de segurança",
+      "Uma nova rede social"
     ],
-    correctAnswer: 2
+    correctAnswer: 1
   }
 ];
