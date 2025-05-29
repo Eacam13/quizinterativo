@@ -25,7 +25,7 @@ const StartScreen = () => {
         transition={{ duration: 0.3 }}
       >
         <h2 className="text-2xl font-bold text-center text-primary mb-6">
-          Bem-vindo ao Quiz de Educação Nutricional!
+          Bem-vindo ao Quiz Cultura Digital!
         </h2>
         
         <div className="space-y-4">
