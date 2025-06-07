@@ -14,7 +14,7 @@ function App() {
       <header className="w-full py-4 bg-white shadow-md">
         <div className="container mx-auto px-4 flex items-center gap-2">
           <BeakerIcon className="w-8 h-8 text-primary" />
-          <h1 className="text-2xl font-bold text-primary">Quiz Segurança Digital</h1>
+          <h1 className="text-2xl font-bold text-primary">Quiz Vitaminas</h1>
         </div>
       </header>
 

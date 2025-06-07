@@ -3,167 +3,167 @@ import { Question } from '../types/quiz';
 export const questions: Question[] = [
   {
     id: 1,
-    question: "O que é uma senha forte?",
+    question: 'Qual vitamina é conhecida por facilitar a absorção de cálcio no intestino?',
     options: [
-      "Seu nome e data de nascimento",
-      "A mesma senha para todos os sites",
-      "Uma combinação de letras, números e símbolos",
-      "Uma palavra fácil de lembrar"
+      'Vitamina A',
+      'Vitamina C',
+      'Vitamina D',
+      'Vitamina K'
     ],
     correctAnswer: 2
   },
   {
     id: 2,
-    question: "Por que não devemos compartilhar senhas?",
+    question: 'A deficiência de qual vitamina está classicamente associada ao escorbuto?',
     options: [
-      "Para não perder a senha",
-      "Para evitar que outras pessoas acessem suas informações",
-      "Porque as senhas são longas",
-      "Porque senhas não são importantes"
+      'Vitamina B1',
+      'Vitamina B12',
+      'Vitamina C',
+      'Vitamina D'
+    ],
+    correctAnswer: 2
+  },
+  {
+    id: 3,
+    question: 'Qual vitamina lipossolúvel atua como potente antioxidante, protegendo membranas celulares?',
+    options: [
+      'Vitamina E',
+      'Vitamina B6',
+      'Vitamina C',
+      'Vitamina B3'
+    ],
+    correctAnswer: 0
+  },
+  {
+    id: 4,
+    question: 'A niacina é o nome alternativo de qual vitamina do complexo B?',
+    options: [
+      'B2',
+      'B3',
+      'B5',
+      'B7'
     ],
     correctAnswer: 1
   },
   {
-    id: 3,
-    question: "O que é o phishing?",
-    options: [
-      "Um jogo online",
-      "Uma técnica para melhorar senhas",
-      "Um golpe que tenta enganar pessoas para roubar dados",
-      "Um antivírus famoso"
-    ],
-    correctAnswer: 2
-  },
-  {
-    id: 4,
-    question: "Qual atitude ajuda a proteger seus dados online?",
-    options: [
-      "Clicar em todos os links recebidos",
-      "Compartilhar senhas com amigos",
-      "Ativar a verificação em duas etapas",
-      "Usar Wi-Fi público para acessar o banco"
-    ],
-    correctAnswer: 2
-  },
-  {
     id: 5,
-    question: "O que é um antivírus?",
+    question: 'Qual vitamina é essencial para a síntese de fatores de coagulação no fígado?',
     options: [
-      "Um tipo de vírus perigoso",
-      "Programa que ajuda a proteger o dispositivo contra ameaças",
-      "Um aplicativo de fotos",
-      "Rede social exclusiva"
+      'Vitamina A',
+      'Vitamina K',
+      'Vitamina E',
+      'Vitamina D'
     ],
     correctAnswer: 1
   },
   {
     id: 6,
-    question: "O que fazer ao receber um e-mail suspeito pedindo seus dados?",
+    question: 'A anemia megaloblástica pode resultar da deficiência de quais vitaminas?',
     options: [
-      "Responder com suas informações",
-      "Encaminhar para amigos",
-      "Ignorar e apagar ou denunciar",
-      "Clicar rapidamente no link"
+      'B9 e B12',
+      'C e D',
+      'A e E',
+      'K e B1'
     ],
-    correctAnswer: 2
+    correctAnswer: 0
   },
   {
     id: 7,
-    question: "Por que é importante manter os aplicativos atualizados?",
+    question: 'Qual vitamina do complexo B é especialmente sensível ao calor e pode ser perdida durante o cozimento prolongado?',
     options: [
-      "Para mudar a cor do ícone",
-      "Para melhorar a velocidade da internet",
-      "Porque atualizações corrigem falhas de segurança",
-      "Para deixar o celular mais bonito"
+      'B1 (Tiamina)',
+      'B9 (Ácido fólico)',
+      'B12 (Cobalamina)',
+      'B2 (Riboflavina)'
     ],
-    correctAnswer: 2
+    correctAnswer: 0
   },
   {
     id: 8,
-    question: "O que é a verificação em duas etapas?",
+    question: 'Qual vitamina é produzida endogenamente pela exposição da pele à luz ultravioleta?',
     options: [
-      "Digitar a senha duas vezes",
-      "Usar dois celulares ao mesmo tempo",
-      "Um método que exige duas formas de confirmação para acessar a conta",
-      "Apenas trocar de senha sempre"
+      'Vitamina D3',
+      'Vitamina C',
+      'Vitamina B2',
+      'Vitamina A'
     ],
-    correctAnswer: 2
+    correctAnswer: 0
   },
   {
     id: 9,
-    question: "Qual é um sinal de site seguro para navegação?",
+    question: 'O consumo excessivo de qual vitamina lipossolúvel pode levar a hipervitaminose e danos hepáticos?',
     options: [
-      "URL começando com http://",
-      "Muitos anúncios piscando",
-      "URL com https:// e cadeado ao lado",
-      "Sites com letras maiúsculas apenas"
+      'Vitamina C',
+      'Vitamina B6',
+      'Vitamina A',
+      'Vitamina B3'
     ],
     correctAnswer: 2
   },
   {
     id: 10,
-    question: "Por que devemos evitar redes Wi-Fi públicas sem senha?",
+    question: 'A biotina, importante para o metabolismo de ácidos graxos, é também conhecida como:',
     options: [
-      "Elas gastam mais bateria",
-      "São mais lentas",
-      "Podem ser inseguras e permitir o roubo de dados",
-      "Exigem senha depois de um tempo"
+      'Vitamina B6',
+      'Vitamina B7',
+      'Vitamina B5',
+      'Vitamina B3'
     ],
-    correctAnswer: 2
+    correctAnswer: 1
   },
   {
     id: 11,
-    question: "O que fazer ao criar uma nova conta online?",
+    question: 'Qual vitamina participa diretamente da síntese de colágeno?',
     options: [
-      "Usar qualquer nome e senha fraca",
-      "Criar uma senha fácil e usar a mesma de sempre",
-      "Usar informações falsas para não ser identificado",
-      "Usar senha forte e ativar a verificação em duas etapas"
+      'Vitamina D',
+      'Vitamina C',
+      'Vitamina E',
+      'Vitamina K'
     ],
-    correctAnswer: 3
+    correctAnswer: 1
   },
   {
     id: 12,
-    question: "O que pode acontecer se você clicar em links desconhecidos?",
+    question: 'Vegetarianos estritos precisam monitorar especialmente a ingestão de qual vitamina?',
     options: [
-      "Seu celular melhora o desempenho",
-      "Você recebe prêmios",
-      "Seu dispositivo pode ser infectado ou seus dados roubados",
-      "Você ganha seguidores automaticamente"
+      'Vitamina B12',
+      'Vitamina C',
+      'Vitamina A',
+      'Vitamina E'
     ],
-    correctAnswer: 2
+    correctAnswer: 0
   },
   {
     id: 13,
-    question: "Por que devemos desconfiar de promoções boas demais?",
+    question: 'A toxicidade de qual vitamina pode causar neuropatia periférica quando suplementada em altas doses por longos períodos?',
     options: [
-      "Porque produtos em promoção são ruins",
-      "Porque podem ser iscas para golpes",
-      "Porque tudo está sempre caro",
-      "Porque não gostamos de promoções"
+      'Vitamina B6',
+      'Vitamina C',
+      'Vitamina D',
+      'Vitamina K'
     ],
-    correctAnswer: 1
+    correctAnswer: 0
   },
   {
     id: 14,
-    question: "Qual desses hábitos ajuda na segurança digital?",
+    question: 'Qual vitamina é um precursor do cofator FAD, essencial às reações de oxidação-redução?',
     options: [
-      "Usar a mesma senha em todos os sites",
-      "Desconfiar de mensagens e links estranhos",
-      "Aceitar solicitações de amizade de desconhecidos",
-      "Publicar informações pessoais frequentemente"
+      'Vitamina B2 (Riboflavina)',
+      'Vitamina B5 (Ácido pantotênico)',
+      'Vitamina B1 (Tiamina)',
+      'Vitamina B9 (Ácido fólico)'
     ],
-    correctAnswer: 1
+    correctAnswer: 0
   },
   {
     id: 15,
-    question: "O que é uma política de privacidade?",
+    question: 'A recomendação diária de ingestão de vitamina C para adultos saudáveis gira em torno de:',
     options: [
-      "Um tipo de antivírus",
-      "Um contrato que define como suas informações serão usadas",
-      "Um aplicativo de segurança",
-      "Uma nova rede social"
+      '10 mg',
+      '45 mg',
+      '75–90 mg',
+      '200 mg'
     ],
-    correctAnswer: 1
+    correctAnswer: 2
   }
 ];
