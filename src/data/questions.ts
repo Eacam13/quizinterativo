@@ -3,166 +3,166 @@ import { Question } from '../types/quiz';
 export const questions: Question[] = [
   {
     id: 1,
-    question: 'Qual vitamina é conhecida por facilitar a absorção de cálcio no intestino?',
+    question: 'Qual é a principal função dos carboidratos no organismo?',
     options: [
-      'Vitamina A',
-      'Vitamina C',
-      'Vitamina D',
-      'Vitamina K'
+      'Regular a temperatura corporal',
+      'Fornecer energia rápida',
+      'Transportar oxigênio',
+      'Formar anticorpos'
     ],
-    correctAnswer: 2
+    correctAnswer: 1
   },
   {
     id: 2,
-    question: 'A deficiência de qual vitamina está classicamente associada ao escorbuto?',
+    question: 'Qual dos seguintes alimentos é uma fonte rica em proteínas completas?',
     options: [
-      'Vitamina B1',
-      'Vitamina B12',
-      'Vitamina C',
-      'Vitamina D'
+      'Arroz',
+      'Feijão',
+      'Ovo',
+      'Batata'
     ],
     correctAnswer: 2
   },
   {
     id: 3,
-    question: 'Qual vitamina lipossolúvel atua como potente antioxidante, protegendo membranas celulares?',
+    question: 'Qual tipo de carboidrato é absorvido mais lentamente e promove maior saciedade?',
     options: [
-      'Vitamina E',
-      'Vitamina B6',
-      'Vitamina C',
-      'Vitamina B3'
+      'Carboidrato simples',
+      'Carboidrato refinado',
+      'Carboidrato complexo',
+      'Açúcar de mesa'
     ],
-    correctAnswer: 0
+    correctAnswer: 2
   },
   {
     id: 4,
-    question: 'A niacina é o nome alternativo de qual vitamina do complexo B?',
+    question: 'A carência de proteínas na dieta pode levar a qual condição?',
     options: [
-      'B2',
-      'B3',
-      'B5',
-      'B7'
+      'Desidratação',
+      'Escorbuto',
+      'Kwashiorkor',
+      'Raquitismo'
     ],
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     id: 5,
-    question: 'Qual vitamina é essencial para a síntese de fatores de coagulação no fígado?',
+    question: 'As proteínas são formadas por quais unidades básicas?',
     options: [
-      'Vitamina A',
-      'Vitamina K',
-      'Vitamina E',
-      'Vitamina D'
+      'Glicose',
+      'Aminoácidos',
+      'Ácidos graxos',
+      'Vitaminas'
     ],
     correctAnswer: 1
   },
   {
     id: 6,
-    question: 'A anemia megaloblástica pode resultar da deficiência de quais vitaminas?',
+    question: 'Qual dos seguintes é um exemplo de carboidrato simples?',
     options: [
-      'B9 e B12',
-      'C e D',
-      'A e E',
-      'K e B1'
+      'Arroz integral',
+      'Mel',
+      'Lentilha',
+      'Aveia'
     ],
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     id: 7,
-    question: 'Qual vitamina do complexo B é especialmente sensível ao calor e pode ser perdida durante o cozimento prolongado?',
+    question: 'O que diferencia um carboidrato complexo de um simples?',
     options: [
-      'B1 (Tiamina)',
-      'B9 (Ácido fólico)',
-      'B12 (Cobalamina)',
-      'B2 (Riboflavina)'
+      'Número de calorias',
+      'Velocidade de digestão e estrutura química',
+      'Quantidade de proteínas',
+      'Presença de gordura'
     ],
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     id: 8,
-    question: 'Qual vitamina é produzida endogenamente pela exposição da pele à luz ultravioleta?',
+    question: 'Qual proteína do leite é amplamente utilizada em suplementos alimentares?',
     options: [
-      'Vitamina D3',
-      'Vitamina C',
-      'Vitamina B2',
-      'Vitamina A'
+      'Caseína',
+      'Albumina',
+      'Colágeno',
+      'Hemoglobina'
     ],
     correctAnswer: 0
   },
   {
     id: 9,
-    question: 'O consumo excessivo de qual vitamina lipossolúvel pode levar a hipervitaminose e danos hepáticos?',
+    question: 'Qual destes alimentos é fonte de proteína vegetal?',
     options: [
-      'Vitamina C',
-      'Vitamina B6',
-      'Vitamina A',
-      'Vitamina B3'
+      'Frango',
+      'Salmão',
+      'Grão-de-bico',
+      'Iogurte'
     ],
     correctAnswer: 2
   },
   {
     id: 10,
-    question: 'A biotina, importante para o metabolismo de ácidos graxos, é também conhecida como:',
+    question: 'Em uma dieta equilibrada, a maior parte da energia deve vir de qual macronutriente?',
     options: [
-      'Vitamina B6',
-      'Vitamina B7',
-      'Vitamina B5',
-      'Vitamina B3'
+      'Vitaminas',
+      'Proteínas',
+      'Carboidratos',
+      'Gorduras'
     ],
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     id: 11,
-    question: 'Qual vitamina participa diretamente da síntese de colágeno?',
+    question: 'Qual a função principal das proteínas estruturais no corpo?',
     options: [
-      'Vitamina D',
-      'Vitamina C',
-      'Vitamina E',
-      'Vitamina K'
+      'Armazenar energia',
+      'Transportar oxigênio',
+      'Formar tecidos e estruturas como pele, cabelo e músculos',
+      'Ajudar na digestão de açúcares'
+    ],
+    correctAnswer: 2
+  },
+  {
+    id: 12,
+    question: 'O índice glicêmico de um alimento mede:',
+    options: [
+      'Seu teor de proteína',
+      'A rapidez com que ele eleva a glicose no sangue',
+      'A quantidade de calorias',
+      'Seu teor de gordura'
     ],
     correctAnswer: 1
   },
   {
-    id: 12,
-    question: 'Vegetarianos estritos precisam monitorar especialmente a ingestão de qual vitamina?',
-    options: [
-      'Vitamina B12',
-      'Vitamina C',
-      'Vitamina A',
-      'Vitamina E'
-    ],
-    correctAnswer: 0
-  },
-  {
     id: 13,
-    question: 'A toxicidade de qual vitamina pode causar neuropatia periférica quando suplementada em altas doses por longos períodos?',
+    question: 'Após o exercício físico, a ingestão de proteínas ajuda principalmente em:',
     options: [
-      'Vitamina B6',
-      'Vitamina C',
-      'Vitamina D',
-      'Vitamina K'
+      'Aumentar a frequência cardíaca',
+      'Repor o glicogênio muscular',
+      'Reparar e construir tecidos musculares',
+      'Reduzir o estresse'
     ],
-    correctAnswer: 0
+    correctAnswer: 2
   },
   {
     id: 14,
-    question: 'Qual vitamina é um precursor do cofator FAD, essencial às reações de oxidação-redução?',
+    question: 'Qual combinação representa uma refeição com boa qualidade de proteína vegetal?',
     options: [
-      'Vitamina B2 (Riboflavina)',
-      'Vitamina B5 (Ácido pantotênico)',
-      'Vitamina B1 (Tiamina)',
-      'Vitamina B9 (Ácido fólico)'
+      'Arroz com batata',
+      'Feijão com arroz',
+      'Macarrão com pão',
+      'Alface com tomate'
     ],
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     id: 15,
-    question: 'A recomendação diária de ingestão de vitamina C para adultos saudáveis gira em torno de:',
+    question: 'Em relação aos carboidratos, o que são fibras alimentares?',
     options: [
-      '10 mg',
-      '45 mg',
-      '75–90 mg',
-      '200 mg'
+      'Proteínas vegetais',
+      'Tipos de lipídios',
+      'Carboidratos não digeríveis que auxiliam na digestão',
+      'Vitaminas solúveis em gordura'
     ],
     correctAnswer: 2
   }
